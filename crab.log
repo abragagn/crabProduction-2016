@@ -1,0 +1,181 @@
+DEBUG 2018-08-02 09:47:24,694: 	 Executing command: 'status'
+DEBUG 2018-08-02 09:47:24,695: 	 Found CRAB cache file /homeui/abragagn/.crab3
+ERROR 2018-08-02 09:47:24,696: 	 Error: crab3_projects/crab_Charmonium_Run2016C-07Aug17_ver2-v1_AOD is not a valid CRAB project directory.
+ERROR 2018-08-02 09:47:24,696: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 39, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 262, in __init__
+    self.validateOptions()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 1019, in validateOptions
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 575, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: crab3_projects/crab_Charmonium_Run2016C-07Aug17_ver2-v1_AOD is not a valid CRAB project directory.
+DEBUG 2018-08-02 09:57:43,362: 	 Executing command: 'status'
+DEBUG 2018-08-02 09:57:43,363: 	 Found CRAB cache file /homeui/abragagn/.crab3
+ERROR 2018-08-02 09:57:43,364: 	 Error: crab3_projects/crab_Charmonium_Run2016C-07Aug17_ver2-v1_AOD is not a valid CRAB project directory.
+ERROR 2018-08-02 09:57:43,364: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 39, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 262, in __init__
+    self.validateOptions()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 1019, in validateOptions
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 575, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: crab3_projects/crab_Charmonium_Run2016C-07Aug17_ver2-v1_AOD is not a valid CRAB project directory.
+DEBUG 2018-08-03 11:07:32,220: 	 Executing command: 'status'
+DEBUG 2018-08-03 11:07:32,221: 	 Found CRAB cache file /homeui/abragagn/.crab3
+ERROR 2018-08-03 11:07:32,223: 	 Cannot find .requestcache file in CRAB project directory /lustre/cmswork/abragagn/crabProduction2016v02/src/PDAnalysis/EDM/bin/crab3_projects/crab_bbbarToMuMu_MuonPt3_2016_AODSIM
+ERROR 2018-08-03 11:07:32,223: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 39, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 262, in __init__
+    self.validateOptions()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 1019, in validateOptions
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 580, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 441, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /lustre/cmswork/abragagn/crabProduction2016v02/src/PDAnalysis/EDM/bin/crab3_projects/crab_bbbarToMuMu_MuonPt3_2016_AODSIM
+DEBUG 2018-08-03 15:37:15,865: 	 Executing command: 'status'
+DEBUG 2018-08-03 15:37:15,866: 	 Found CRAB cache file /homeui/abragagn/.crab3
+ERROR 2018-08-03 15:37:15,867: 	 Error: crabProduction2016v02/src/PDAnalysis/EDM/bin/crab3_projects/crab_BsToJpsiPhi_BMuonFilter_DGamma0_2016_AODSIM/ is not a valid CRAB project directory.
+ERROR 2018-08-03 15:37:15,867: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 39, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 262, in __init__
+    self.validateOptions()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 1019, in validateOptions
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 575, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: crabProduction2016v02/src/PDAnalysis/EDM/bin/crab3_projects/crab_BsToJpsiPhi_BMuonFilter_DGamma0_2016_AODSIM/ is not a valid CRAB project directory.
+DEBUG 2018-08-06 17:41:54,272: 	 Executing command: 'resubmit'
+DEBUG 2018-08-06 17:41:54,273: 	 Found CRAB cache file /homeui/abragagn/.crab3
+ERROR 2018-08-06 17:41:54,274: 	 Error: crab3_projects/crab_BdToJpsiKstar_BMuonFilter_2016_AODSIM is not a valid CRAB project directory.
+ERROR 2018-08-06 17:41:54,275: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 28, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 262, in __init__
+    self.validateOptions()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 276, in validateOptions
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 575, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: crab3_projects/crab_BdToJpsiKstar_BMuonFilter_2016_AODSIM is not a valid CRAB project directory.
+DEBUG 2018-08-06 17:41:55,036: 	 Executing command: 'resubmit'
+DEBUG 2018-08-06 17:41:55,036: 	 Found CRAB cache file /homeui/abragagn/.crab3
+ERROR 2018-08-06 17:41:55,038: 	 Error: crab3_projects/crab_BdToKstarMuMu_BMuonFilter_2016_AODSIM is not a valid CRAB project directory.
+ERROR 2018-08-06 17:41:55,038: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 28, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 262, in __init__
+    self.validateOptions()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 276, in validateOptions
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 575, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: crab3_projects/crab_BdToKstarMuMu_BMuonFilter_2016_AODSIM is not a valid CRAB project directory.
+DEBUG 2018-08-06 17:41:55,709: 	 Executing command: 'resubmit'
+DEBUG 2018-08-06 17:41:55,709: 	 Found CRAB cache file /homeui/abragagn/.crab3
+ERROR 2018-08-06 17:41:55,711: 	 Error: crab3_projects/crab_InclusiveMu_MuonPt3_2016_AODSIM is not a valid CRAB project directory.
+ERROR 2018-08-06 17:41:55,711: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 28, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 262, in __init__
+    self.validateOptions()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/resubmit.py", line 276, in validateOptions
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 575, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: crab3_projects/crab_InclusiveMu_MuonPt3_2016_AODSIM is not a valid CRAB project directory.
+DEBUG 2018-08-07 13:41:39,798: 	 Executing command: 'submit'
+DEBUG 2018-08-07 13:41:39,799: 	 Found CRAB cache file /homeui/abragagn/.crab3
+DEBUG 2018-08-07 13:41:39,808: 	 Checking credentials
+DEBUG 2018-08-07 13:41:39,808: 	 Found proxy file /tmp/x509up_u757
+DEBUG 2018-08-07 13:41:39,808: 	 Getting proxy life time left
+DEBUG 2018-08-07 13:41:40,413: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u757 -timeleft
+ output : 185675
+
+ error: 
+ retcode : 0
+DEBUG 2018-08-07 13:41:41,018: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u757 -actimeleft
+ output : 185674
+
+ error: 
+ retcode : 0
+DEBUG 2018-08-07 13:41:41,018: 	 Proxy valid for 51:34:35 hours
+INFO 2018-08-07 13:41:41,018: 	 Will use CRAB configuration file crab3_MC_cfg8.py
+DEBUG 2018-08-07 13:41:41,018: 	 Loading CRAB configuration file.
+DEBUG 2018-08-07 13:41:41,048: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2018-08-07 13:41:41,049: 	 Working area '/lustre/cmswork/abragagn/crabProduction2016v02/src/PDAnalysis/EDM/bin/crab3_projects/crab_BToJPsiKMu_JpsiMuMu_2016_AODSIM' already exists 
+Please change the requestName in the config file
+ERROR 2018-08-07 13:41:41,049: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 307, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/ClientUtilities.py", line 404, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/lustre/cmswork/abragagn/crabProduction2016v02/src/PDAnalysis/EDM/bin/crab3_projects/crab_BToJPsiKMu_JpsiMuMu_2016_AODSIM' already exists 
+Please change the requestName in the config file
+DEBUG 2018-08-09 12:11:24,382: 	 Executing command: 'kill'
+DEBUG 2018-08-09 12:11:24,383: 	 Found CRAB cache file /homeui/abragagn/.crab3
+ERROR 2018-08-09 12:11:24,384: 	 Error: Please indicate the CRAB project directory with --dir=<project-directory>.
+ERROR 2018-08-09 12:11:24,385: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 262, in __init__
+    self.validateOptions()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/kill.py", line 63, in validateOptions
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1805.patch1/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 571, in validateOptions
+    raise ex
+MissingOptionException: [91mError[0m: Please indicate the CRAB project directory with --dir=<project-directory>.
